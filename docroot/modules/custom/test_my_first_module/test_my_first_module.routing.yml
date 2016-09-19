@@ -1,0 +1,7 @@
+test_my_first_module.content:
+  path: '/page'
+  defaults:
+    _controller: 'Drupal\test_my_first_module\Controller\TestMyFirstModuleController::content'
+    _title: 'My first module'
+  requirements:
+    _permission: 'access content'

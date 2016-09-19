@@ -1,0 +1,6 @@
+name: My First Module
+description: Creates a page wit Title, URL: /page and print's some text.
+package: My modules
+
+type: module
+core: 8.x

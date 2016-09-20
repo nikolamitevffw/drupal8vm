@@ -6,13 +6,13 @@
  * Time: 10:30
  */
 
-namespace Drupal\custom_registration_page\Form;
+namespace Drupal\test_my_first_module\Form;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 
-class CustomRegistrationPageForm extends FormBase {
+class TestMyFirstModuleForm extends FormBase {
     public function getFormId(){
-        return 'custom_registration_page';
+        return 'test_my_first_module_registration_form';
     }
     public function buildForm (array $form, FormStateInterface $form_state){
         $form['firstName'] = array(

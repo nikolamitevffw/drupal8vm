@@ -5,3 +5,11 @@ test_my_first_module.content:
     _title: 'My first module'
   requirements:
     _permission: 'my module display'
+
+test_my_first_module.form:
+  path: '/page-form'
+  defaults:
+    _form: 'Drupal\test_my_first_module\Form\TestMyFirstModuleForm'
+    _title: 'My registration form'
+  requirements:
+    _permission: 'my module display'

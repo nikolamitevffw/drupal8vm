@@ -1,0 +1,4 @@
+my module display:
+  title: 'My module display'
+  description: 'Displays my module page.'
+  restrict access: true

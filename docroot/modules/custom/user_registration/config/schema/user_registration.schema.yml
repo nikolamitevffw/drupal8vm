@@ -1,0 +1,16 @@
+userreg.user.*:
+  type: config_object
+  label: 'User registration'
+    mapping:
+      id:
+        type: integer
+        label: 'ID'
+      firstname:
+        type: string
+        label: 'First name'
+      lastname:
+        type: string
+        label: 'Last name'
+      email:
+        type: email
+        label: 'E-mail'

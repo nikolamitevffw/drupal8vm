@@ -1,0 +1,23 @@
+user_registration.form:
+  path: '/user-registration'
+  defaults:
+    _form: 'Drupal\user_registration\Form\UserRegistrationForm'
+    _title: 'Register for event'
+  requirements:
+    _permission: 'access content'
+
+user_registration.content:
+  path: '/event-users'
+  defaults:
+    _controller: 'Drupal\user_registration\Controller\UserRegistrationController::content'
+    _title: 'Event users'
+  requirements:
+    _permission: 'access content'
+
+user_registration.manage_delete:
+  path: '/user-delete/{name}'
+  defaults:
+    _controller: 'Drupal\user_registration\Controller\UserRegistrationController::delete'
+    _title: 'Delete user'
+  requirements:
+    _permission: 'access content'

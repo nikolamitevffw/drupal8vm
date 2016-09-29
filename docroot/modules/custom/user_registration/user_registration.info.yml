@@ -1,0 +1,6 @@
+name: User registration
+description: Creates registration form and populats the results in table.
+package: My modules
+
+type: module
+core: 8.x
